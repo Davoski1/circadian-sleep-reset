@@ -1,2 +1,3 @@
-# circadian-sleep-reset
-Circadian Sleep Reset, built with GoodBuild
+# Circadian Sleep Reset
+
+Built with [GoodBuild](https://goodbuildit.xyz). Edits made in GoodBuild are pushed here automatically.

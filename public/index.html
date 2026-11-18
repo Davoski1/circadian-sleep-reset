@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daylight Hours · fix your circadian rhythm</title>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-background: #ffffff;
+        --color-foreground: #0f172a;
+        --color-muted: #f7f7f2;
+        --color-muted-foreground: #64748b;
+        --color-card: #ffffff;
+        --color-border: #e2e8f0;
+        --color-ring: #071dad;
+        --color-primary: #071dad;
+        --color-primary-foreground: #ffffff;
+        --color-accent: #dfff9c;
+        --color-accent-foreground: #10210a;
+        --color-success: #059669;
+        --color-warning: #d97706;
+        --color-danger: #dc2626;
+        --radius-lg: 0.75rem;
+        --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+        --font-display: Inter, ui-sans-serif, system-ui, sans-serif;
+      }
+      @layer base {
+        body {
+          @apply bg-muted text-foreground;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-muted text-foreground antialiased">
+    <div id="root"></div>
+  </body>
+</html>
